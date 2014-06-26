@@ -8,20 +8,23 @@ input[type='submit'], .nav li.current a, .speaker-contacts > .contact:hover,
 .owl-page.active span, .owl-page.active span:hover,
 .preloader, .preloader:before, .preloader:after, div.fancy-select div.trigger.open,
 div.fancy-select ul.options li.selected, div.fancy-select ul.options li.selected.hover  {
-	background-color: #00aeda; /* <- Paste here your prefered color */
+	background-color: #8CC961; /* <- Paste here your prefered color */
 }
 
 a, .accordion-heading span, .speaker-contacts > .contact, 
 .table-features li.fa-check-circle, .owl-btn.prev,
 .owl-btn.next, div.fancy-select ul.options li.hover {
-	color: #00aeda; /* <- Paste here your prefered color */
+	color: #8CC961; /* <- Paste here your prefered color */
 }
 
 .speaker:hover .speaker-photo, .speaker-contacts > .contact, 
 .social-icons li a:hover, .gotop:hover, .speaker-contacts > .contact:hover {
-	border-color: #00aeda; /* <- Paste here your prefered color */
+	border-color: #8CC961; /* <- Paste here your prefered color */
 }
 
+#carousel > div.owl-wrapper-outer .item {
+	background: #ffffff;
+}
 
 /*--------------------
 Reset ==============*/
