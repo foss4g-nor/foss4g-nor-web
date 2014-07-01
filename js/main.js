@@ -126,8 +126,8 @@
                 currentClass: 'current',
                 scrollSpeed: 500,
                 scrollOffset: 60,
-                scrollThreshold: 0.2,
-                easing: 'swing'
+                scrollThreshold: 0.2
+                //,                easing: 'swing'
             });
         },
 
