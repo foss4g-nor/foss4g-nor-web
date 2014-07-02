@@ -22,7 +22,7 @@
         },
 
         Webatlas: function () {
-            var map = new WebatlasMap('map_canvas', {customer: 'WA_JS_FOSS4G-NOR'});
+            var map = new WebatlasMap('map_canvas', {customer: 'WA_JS_V3_Coursework'});
             
             map.scrollWheelZoom.disable();
 
