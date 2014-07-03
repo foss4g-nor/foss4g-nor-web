@@ -36,7 +36,7 @@ var map;
             marker.openPopup();
 
             //endrer senterpunkt til koordinatene
-            map.setView(new L.LatLng(59.910317055347754, 10.72505), 18);
+            map.setView(new L.LatLng(59.910317055347754, 10.72505), 16);
 
 
             // `fullscreenchange` Event that's fired when entering or exiting fullscreen.
