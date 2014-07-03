@@ -26,6 +26,14 @@ a, .accordion-heading span, .speaker-contacts > .contact,
 	background: #ffffff;
 }
 
+.leaflet-control-zoom {
+	margin-top: 200px !important;
+} 
+
+.leaflet-control-layers {
+	margin-top: 110px !important;
+}
+
 /*--------------------
 Reset ==============*/
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,p,blockquote,hr,th,td {
