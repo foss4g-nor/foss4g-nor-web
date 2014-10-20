@@ -3,14 +3,14 @@ FOSS4G.no - 2015
 
 Drevet av _studentmiljøet_. Arrangeres på universitet eller lignende. Gratis deltakelse. Sponsorer dekker utgifter og potensiell inntekt til "studentkassa". GeoForum bidrar med koordinering og sørger for kontinuitet. 
 
-* NMBU: Atlas ved Eirik Aabøe, Jørgen Kvalberg (og flere?)
-* NTNU: ??? (Torbjørn Vilhelmsen? Håkon?)
+* NMBU: Atlas ved Eirik Aabøe <eirikaaboe@gmail.com>, Jørgen Kvalberg 
+* NTNU: Anne Sofie <annesofiese@gmail.com>
 * HIG: Sverre Stikbakke <sverre.stikbakke@hig.no>
 * UiO: ???
 * UiB: ???
 * Andre?
 
-* GeoForum koordinerer (v/ Sverre Røed-Bottenvann)
+* GeoForum koordinerer (v/ Sverre Røed-Bottenvann, sverre@geoforum.no)
 
 
 FOSS4G.no - 2014
