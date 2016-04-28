@@ -41,6 +41,11 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,p,blockquote,hr,t
 	padding:0;
 }
 
+#info2015{
+	width:90%;
+	margin:auto;
+	margin-top:20px;
+}
 
 
 /*--------------------
@@ -174,6 +179,7 @@ input[type='submit']:active {
 	background: #fff;
 	border-radius: 5px;
 	padding: 0 45px;
+
 }
 
 #header {
@@ -231,7 +237,7 @@ input[type='submit']:active {
 
 .header-bg {
 	position: relative;
-	height: 750px;
+	height: 550px;
 	overflow: hidden;
 }
 
@@ -974,3 +980,28 @@ Sponsor ============*/
 .sponsor {
     margin-bottom: 30px;
 }
+
+.textStyle{
+	text-align: initial;
+	width:70%;
+	margin:auto;
+}
+#callForPapers{
+	width:85%;
+}
+#callForPapers h2{
+	margin-bottom: 20px;
+}
+#callForPapers li{
+	margin-left:20px;
+	font-size:80%;
+}
+#callForPapers ul{
+	margin-bottom:20px;
+	margin-top:20px;
+}
+
+#space{
+height: 10px;
+}
+
