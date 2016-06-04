@@ -1,23 +1,23 @@
 /*--------------------
 Color Scheme =======*/
 
-input[type='submit'], .nav li.current a, .speaker-contacts > .contact:hover, 
-.social-icons li a:hover, .form-notification, .table-price, .gotop:hover, 
+input[type='submit'], .nav li.current a, .speaker-contacts > .contact:hover,
+.social-icons li a:hover, .form-notification, .table-price, .gotop:hover,
 .preloader div, .owl-btn.prev:hover, .owl-btn.next:hover,
-.flex-control-paging li a.flex-active, .flex-control-paging li a.flex-active:hover, 
+.flex-control-paging li a.flex-active, .flex-control-paging li a.flex-active:hover,
 .owl-page.active span, .owl-page.active span:hover,
 .preloader, .preloader:before, .preloader:after, div.fancy-select div.trigger.open,
 div.fancy-select ul.options li.selected, div.fancy-select ul.options li.selected.hover  {
-	background-color: #8CC961; /* <- Paste here your prefered color */
+	background-color: #FB9B35; /* <- Paste here your prefered color */
 }
 
-a, .accordion-heading span, .speaker-contacts > .contact, 
+a, .accordion-heading span, .speaker-contacts > .contact,
 .table-features li.fa-check-circle, .owl-btn.prev,
 .owl-btn.next, div.fancy-select ul.options li.hover {
 	color: #8CC961; /* <- Paste here your prefered color */
 }
 
-.speaker:hover .speaker-photo, .speaker-contacts > .contact, 
+.speaker:hover .speaker-photo, .speaker-contacts > .contact,
 .social-icons li a:hover, .gotop:hover, .speaker-contacts > .contact:hover {
 	border-color: #8CC961; /* <- Paste here your prefered color */
 }
@@ -28,7 +28,7 @@ a, .accordion-heading span, .speaker-contacts > .contact,
 
 .leaflet-control-zoom {
 	margin-top: 200px !important;
-} 
+}
 
 .leaflet-control-layers {
 	margin-top: 110px !important;
@@ -37,7 +37,7 @@ a, .accordion-heading span, .speaker-contacts > .contact,
 /*--------------------
 Reset ==============*/
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,p,blockquote,hr,th,td {
-	margin:0; 
+	margin:0;
 	padding:0;
 }
 
@@ -76,7 +76,6 @@ p {
 }
 
 h1,h2,h3 {
-    font-family: 'Belgrano', serif;
     line-height: 1.4em;
     color: #222222;
     margin: 10px 0;
@@ -164,7 +163,7 @@ input[type='submit'] {
 	transition: all 0.1s;
 	-moz-transition: all 0.1s;
 	-webkit-transition: all 0.1s;
-	-o-transition: all 0.1s; 
+	-o-transition: all 0.1s;
 }
 
 input[type='submit']:hover {
@@ -278,7 +277,7 @@ input[type='submit']:active {
 	display: none;
 }
 
-.content section.separated { 
+.content section.separated {
 	border-top: 20px solid #efefef;
 	border-bottom: 20px solid #efefef;
 	margin: 0 -45px -3px;
@@ -368,7 +367,7 @@ Navigation =========*/
 	transition: all 0.1s;
 	-moz-transition: all 0.1s;
 	-webkit-transition: all 0.1s;
-	-o-transition: all 0.1s; 
+	-o-transition: all 0.1s;
 }
 
 .navbar-nav {
@@ -916,7 +915,7 @@ Preloader ==========*/
 	left: 46%;
 	left: -webkit-calc(50% - 6px);
 	left: calc(50% - 6px);
-	
+
 	border-radius: 12px;
 	-webkit-transform-origin:  50% 50%;
 			transform-origin:  50% 50% ;
@@ -1004,4 +1003,3 @@ Sponsor ============*/
 #space{
 height: 10px;
 }
-
