@@ -8,13 +8,13 @@ input[type='submit'], .nav li.current a, .speaker-contacts > .contact:hover,
 .owl-page.active span, .owl-page.active span:hover,
 .preloader, .preloader:before, .preloader:after, div.fancy-select div.trigger.open,
 div.fancy-select ul.options li.selected, div.fancy-select ul.options li.selected.hover  {
-	background-color: #FB9B35; /* <- Paste here your prefered color */
+	background-color: #F98A4D; /* <- Paste here your prefered color */
 }
 
 a, .accordion-heading span, .speaker-contacts > .contact,
 .table-features li.fa-check-circle, .owl-btn.prev,
 .owl-btn.next, div.fancy-select ul.options li.hover {
-	color: #8CC961; /* <- Paste here your prefered color */
+	color: #F98A4D; /* <- Paste here your prefered color */
 }
 
 .speaker:hover .speaker-photo, .speaker-contacts > .contact,
@@ -1002,4 +1002,19 @@ Sponsor ============*/
 
 #space{
 height: 10px;
+}
+
+.pamelding{
+	margin:0;
+	margin-left: 12%;
+}
+
+#banner{
+	width: 120%;
+	margin-left: -30px;
+	margin-top: 20px;
+}
+#surveyLink{
+	color: #F98A4D;
+	cursor: pointer;
 }
