@@ -41,6 +41,10 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,p,blockquote,hr,t
 	padding:0;
 }
 
+h1, h2{
+	font-weight:bold;
+}
+
 #info2015{
 	width:90%;
 	margin:auto;
@@ -1017,4 +1021,42 @@ height: 10px;
 #surveyLink{
 	color: #F98A4D;
 	cursor: pointer;
+}
+
+#programTable td{
+	border: solid black 1px;
+	padding-left:10px;
+	text-align: left;
+	color:black;
+}
+#programTable th{
+	/*border: solid black 1px;*/
+	padding-left:10px;
+	text-align: left;
+	font-size: 16px;
+	color:black;
+}
+
+td.grey{
+	background-color: #d6d6d6;
+	width:10%;
+	font-weight: bold;
+}
+
+td.break{
+	background-color: #efefef;
+	width:10%;
+	font-weight: bold;
+}
+td.keySpeaker{
+	color: #f98a4d !important;
+	font-weight: bold;
+}
+.english {
+	font-style: italic;
+	color:#828282;
+}
+
+span#changes{
+	text-align: left;
 }
