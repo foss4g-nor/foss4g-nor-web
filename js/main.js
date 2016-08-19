@@ -297,4 +297,8 @@ var map;
     fn.Launch();
   });
 
+  $("#headerFoss4g").click(function(){
+    window.location.href = "http://www.foss4g.no";
+  });
+
 })(jQuery);

@@ -1084,3 +1084,7 @@ img.logo{
 	height: 300px;
 	overflow: hidden;
 }
+
+#headerFoss4g{
+	cursor:pointer;
+}
