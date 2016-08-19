@@ -1863,6 +1863,7 @@ select[multiple].input-lg {
 @media (min-width: 992px) {
   .navbar-header {
     float: left;
+    cursor:pointer;
   }
 }
 .navbar-collapse {
