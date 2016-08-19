@@ -6,7 +6,36 @@
 	.header-cta .blk { padding: 10px; }
 	.header-cta h1 { font-size: 4.5rem; }
 	.col-xs-6 { width: 100%; }
+	img.logo{
+		width: 85% ;
+	}
+	#banner{
+		width: 85%;
+		margin-left: 5%;
+		margin-right: auto;
+	}
 
+	.textStyle{
+		width: 118%;
+		margin-left: -10%;
+		display: inline-block;
+		text-align: left;
+	}
+	#program2016{
+		width: 128%;
+		margin-left: -46px;
+	}
+	#callForPapers{
+		width: 112%;
+	}
+	#info2015{
+		width: 116%;
+		margin-left: -12%;
+	}
+	/*#programTable{
+		margin-left:-48px;
+		width: 128%;
+	}*/
 }
 
 @media (max-width: 767px) {
@@ -28,15 +57,36 @@
 	.pricing-features { display: none; }
 
 	.header-bg { height: 550px; }
-
+	img.logo{
+		width: 50% ;
+		height: auto;
+	}
 }
+@media (min-width: 480px) and (max-width: 768px) {
+	#banner{
+		width: 85%;
+		margin-left: 5%;
+		margin-right: auto;
+	}
+	#programTable{
+		margin-left: -30px;
+	}
+	.textStyle{
+		width: 97%;
+		margin-left: 2%;
+		display: inline-block;
+		text-align: left;
+	}
+}
+
 
 @media (min-width: 768px) and (max-width: 991px) {
 
 	html { font-size: 54.5% }
 	.content section { padding: 35px 0; }
 	.content section + section:before { margin: -35px 15px 35px; }
-	.box { padding: 0 35px; }
+	.box { padding: 0px 35px;}
+	/*.section {padding-left: 10%; }*/
 	.content section.separated { margin: 0 -35px -3px 0; }
 
 	.navbar-nav,
@@ -50,12 +100,21 @@
 
 	.header-bg { height: 550px; }
 
+	#banner{
+		width: 85%;
+		margin-left: 5%;
+		margin-right: auto;
+	}
+	#programTable{
+		margin-left: -30px;
+	}
+
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
 
 	html { font-size: 58.5% }
-	
+
 	.header-bg { height: 650px; }
 
 	.table-features li span { display: none; }
@@ -66,15 +125,91 @@
 
 	.header-bg { height: 680px; }
 
- 	.table-features li span { display: none; }
+	.table-features li span { display: none; }
 
 }
 
 @media (min-width: 1300px) {
 
-  .owl-carousel-navigation { display: block; }
-  .owl-controls { display: none!important; }
+	.owl-carousel-navigation { display: block; }
+	.owl-controls { display: none!important; }
 
-  .table-features li span { display: none; }
+	.table-features li span { display: none; }
 
+}
+@media (min-width: 991px) and (max-width: 1300px) {
+	.textStyle{
+		width: 106%;
+		margin-left: -3%;
+		display: inline-block;
+		text-align: left;
+	}
+}
+
+@media only screen and (max-width: 1300px) {
+	/*.textStyle{
+	width: 106%;
+	margin-left: -3%;
+	display: inline-block;
+	text-align: left;
+	}*/
+	.textStyle h2{
+		text-align: center;
+	}
+	.section-header{
+		text-align: center;
+	}
+
+}
+
+
+
+/*for table*/
+
+@media
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+	/* Force table to not be like tables anymore */
+	table, thead, tbody, th, td, tr {
+		display: block;
+	}
+
+	/* Hide table headers (but not display: none;, for accessibility) */
+	thead tr {
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+
+	tr { border: 1px solid #ccc; }
+
+	td {
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #eee;
+		position: relative;
+		padding-left: 50%;
+	}
+
+	td:before {
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%;
+		padding-right: 10px;
+		white-space: nowrap;
+	}
+	td.grey, td.break{
+		width: 100%;
+	}
+	/*
+	Label the data
+	*/
+	/*td:nth-of-type(1):before { content: "Tid"; }
+	td:nth-of-type(2):before { content: "Foredragsholder"; }
+	td:nth-of-type(3):before { content: "Tema"; }
+	td:nth-of-type(4):before { content: "Språk"; }*/
 }
