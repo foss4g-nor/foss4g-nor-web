@@ -1064,3 +1064,12 @@ span#changes{
 td.language{
 	padding: 10px;
 }
+
+img.logo{
+	width:auto;
+	height:100px;
+}
+
+.lineThrough{
+	text-decoration: line-through;
+}
