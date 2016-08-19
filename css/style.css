@@ -1073,3 +1073,14 @@ img.logo{
 .lineThrough{
 	text-decoration: line-through;
 }
+
+#programPdf{
+	height:100vh;
+
+}
+
+.header-program{
+	position: relative;
+	height: 300px;
+	overflow: hidden;
+}
