@@ -1076,6 +1076,7 @@ img.logo{
 
 #programPdf{
 	height:100vh;
+	width:100%;
 
 }
 
@@ -1087,4 +1088,28 @@ img.logo{
 
 #headerFoss4g{
 	cursor:pointer;
+}
+
+#headerBilde{
+
+}
+#navbar-top{
+	width: 100%;
+	height: 50px;
+	background-color: white;
+	cursor: pointer;
+}
+
+#foss4gHeader{
+	float:left;
+}
+#headerText{
+	font-family: inherit;
+	font-weight: bold;
+	font-size: 30px;
+	float: left;
+	margin-top: 12px;
+}
+#cursorImg{
+	float:left;
 }
