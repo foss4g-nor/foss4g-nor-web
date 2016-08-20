@@ -295,6 +295,10 @@ var map;
 
   $(document).ready(function() {
     fn.Launch();
+    console.log("Ready");
+    if($(window).width()>768){
+      console.log("small");
+    }
   });
 
   $("#headerFoss4g").click(function(){
