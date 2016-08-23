@@ -127,6 +127,13 @@
 
 	.table-features li span { display: none; }
 
+
+}
+@media (min-width: 990px) and (max-width:1300px) {
+	.pamelding{
+		width: 75%!important;
+		margin-left: 0!important;
+	}
 }
 
 @media (min-width: 1300px) {
@@ -143,6 +150,9 @@
 		margin-left: -3%;
 		display: inline-block;
 		text-align: left;
+	}
+	.pamelding{
+		text-align: center;
 	}
 }
 
@@ -165,6 +175,16 @@
 
 
 /*for table*/
+
+@media only screen and (max-width: 550px) {
+	.pamelding{
+		width: 103%;
+		margin-left: -2%;
+	}
+	#surveyLink{
+		margin-left: 0;
+	}
+}
 
 @media
 only screen and (max-width: 760px),
