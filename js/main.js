@@ -302,7 +302,7 @@ var map;
   });
 
   $("#headerFoss4g").click(function(){
-    window.location.href = "http://www.foss4g.no";
+    // window.location.href = "http://www.foss4g.no";
   });
 
 })(jQuery);
