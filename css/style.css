@@ -1133,3 +1133,15 @@ img.logo{
 .center{
 	text-align: center;
 }
+
+#video-link a{
+	color:white;
+	background-color: #f98a4d;
+	padding: 10px;
+	font-size: 127%;
+	border-radius: 3px;
+}
+#video-link{
+	margin-bottom: 50px;
+	margin-top: 25px;
+}
