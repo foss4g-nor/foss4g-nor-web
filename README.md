@@ -1,3 +1,14 @@
+FOSS4G.no - 2016
+================
+
+Drevet av _studentmiljøet_. Arrangert på Felix konferansesenter, med ca 80 deltakere. Sponserer og deltakeravgift dekket utgifter.  
+
+* NTNU: Mathilde Ørstavik <mathilde.orstavik@gmail.com>
+* NTNU: Anne Sofie <annesofiese@gmail.com>
+* NTNU: Marie Senumstad Sagedal <marie.sagedal@gmail.com>
+* NTNU: Nina Tandrevold Hermanrud <nina.hermanrud@gmail.com>
+
+
 FOSS4G.no - 2015
 ================
 
