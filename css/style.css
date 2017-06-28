@@ -1037,15 +1037,17 @@ height: 10px;
 	margin-top: 20px;
 }
 
-#programTable td{
+#programTable td {
 	border: solid black 1px;
-	padding-left:10px;
+	padding-left:10px; <!-- Denne var 10 før joakims inngrepen -->
 	text-align: left;
 	color:black;
+	font-weight: bold;
 }
-#programTable th{
+
+#programTable th {
 	/*border: solid black 1px;*/
-	padding-left:10px;
+	padding-left:4px;
 	text-align: left;
 	font-size: 16px;
 	color:black;
@@ -1063,7 +1065,7 @@ td.break{
 	font-weight: bold;
 }
 td.keySpeaker{
-	color: #f98a4d !important;
+	color: #000000 !important;
 	font-weight: bold;
 }
 .english {
