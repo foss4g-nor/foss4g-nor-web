@@ -1,3 +1,16 @@
+FOSS4G.no - 2018
+================
+
+Arrangeres av _faggruppen Geografisk IT_ i Geoforum. Det er ønskelig at studentmiljøet tar over ansvaret i kommende år. Konferansen holder sted på Felix konferansesenter. Sponserer og deltakeravgift dekket utgifter.  
+
+* Steffen Pøhner Henriksen (Geodata) <steffen[at]pohnerhenriksen.com>
+* Anne Sofie Strand Erichsen (Norkart) <annesofiese[at]gmail.com>
+* Mathilde Ørstavik (Norkart) <mathilde.orstavik[at]gmail.com>
+* Martine Vad Almankaas (Kystverket) <martine.almankaas[at]kystverket.no>
+* Eirik Aabøe (Geodata) <eirikaaboe[at]gmail.com>
+* Jan Kristian Jensen (Statens vegvesen) <jan.kristian.jensen[at]vegvesen.no>
+* Geir Arne Hjelle (Kartverket) <geirarne[at]gmail.com>
+ 
 FOSS4G.no - 2016
 ================
 
