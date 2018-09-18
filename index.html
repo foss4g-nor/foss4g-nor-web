@@ -43,6 +43,19 @@
       height: 100%;
       vertical-align: middle
     }
+
+    .marketing{
+      text-align: center;
+    }
+
+    .speakerrow{
+      margin-top: 40px;
+    }
+
+    .speakerimg{
+      margin-bottom: 10px;
+      resize-
+    }
   </style>
   
 </head>
@@ -59,7 +72,7 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#callforpapers">Call for presentations</a>
+            <a class="nav-link js-scroll-trigger" href="#speakers">Foredrag</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#sponsors">Sponsorer</a>
@@ -104,31 +117,64 @@
     </div>
   </header>
   
-  <section class="bg-primary" id="about">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 mx-auto text-center">
-          <h2 class="section-heading text-white">Hvem kommer?</h2>
-          <hr class="light my-4">
-          <p class="text-faded mb-4">Konferansen er en spennende mulighet for både teknikere og beslutningstagere som er interessert i open source brukt i geomatikkfaget. Vi håper på å bli opp mot 200 personer fra hele Norge, som representerer de eksisterende brukere og utviklere, samt de som er interessert fra det offentlige, akademia og industri.</p>
-          <!-- <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Get Started!</a> -->
+  <section id="speakers">
+      <div class="container marketing">
+        <div class="row">
+          <div class="col-lg-4">
+              <img class="rounded-circle speakerimg" src="img/bilder_foredragsholdere/runar_bergheim.jpg" alt="Generic placeholder image" width="140" height="140">
+              <h5>Runar Bergheim</h5>
+              <h6 class="text-muted">Avinet</h6>
+              <h4>Skjemaløse databaser - den sanne vei til frelse eller evig fortapelse</h4>
+            </div>
+          <div class="col-lg-4">
+              <img class="rounded-circle speakerimg" src="img/bilder_foredragsholdere/Mikkel_Freltoft_Krogsholm.png" alt="Generic placeholder image" width="140" height="140">
+              <h5>Mikkel Freltoft Krogsholm</h5>
+              <h6 class="text-muted">Think Big, A Teradata Company</h6>
+              <h4>How to build a state of the art open source GIS infrastructure - easy!</h4>
+          </div>
+          <div class="col-lg-4">
+              <img class="rounded-circle speakerimg" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+              <h5>Harald K. Jansson <br> Øyvind Bye Skille</h5>
+              <h6 class="text-muted">NRK</h6>
+              <h4>Journalistikk og kartdata hos en allmennkringkaster</h4>
+          </div>
+        </div>
+        <div class="row speakerrow">
+          <div class="col-lg-4">
+              <img class="rounded-circle speakerimg" src="img/bilder_foredragsholdere/Atle-Sveen1-960x960-c-center.jpg" alt="Generic placeholder image" width="140" height="140">
+              <h5>Atle Frenvik Sveen</h5>
+              <h6 class="text-muted">Norkart, NTNU</h6>
+              <h4>Endringslogggenerering for åpne geografiske datasett</h4>
+            </div>
+          <div class="col-lg-4">
+              <img class="rounded-circle speakerimg" src="img/bilder_foredragsholdere/christianBergSkjetne.jpg" alt="Generic placeholder image" width="140" height="140">
+              <h5>Christian Berg Skjetne</h5>
+              <h6 class="text-muted">Statens vegvesen</h6>
+              <h4>Nodered for håndtering av live data</h4>
+          </div>
+          <div class="col-lg-4">
+              <img class="rounded-circle speakerimg" src="img/bilder_foredragsholdere/paal_kristensen.jpg" alt="Generic placeholder image" width="140" height="140">
+              <h5>Pål Kristensen</h5>
+              <h6 class="text-muted">Geodata AS</h6>
+              <h4>Kubernetes i Geodata – mikrotjenester i praksis</h4>
+          </div>
+        </div>
+        <div class="row speakerrow">
+          <div class="col-lg-4">
+              <img class="rounded-circle speakerimg" src="img/bilder_foredragsholdere/geir_arne_hjelle.jpg" alt="Generic placeholder image" width="140" height="140">
+              <h5>Geir Arne Hjelle</h5>
+              <h6 class="text-muted">Kartverket</h6>
+              <h4>Lytt til Kvasarer og Skyt Satellitter med Laser</h4>
+            </div>
+          <div class="col-lg-4">
+              <img class="rounded-circle speakerimg" src="img/bilder_foredragsholdere/kristian_evers.jpg" alt="Generic placeholder image" width="140" height="140">
+              <h5>Kristian Evers</h5>
+              <h6 class="text-muted">Styrelsen for Dataforsyning og Effektivisering</h6>
+              <h4>The future of coordinate transformation in geospatial open source software</h4>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
-  
-  <section id="callforpapers">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 mx-auto text-center">
-          <h2 class="section-heading">Vil du holde innlegg?</h2>
-          <hr class="dark my-4">
-          <p>Send oss en mail til <a href="mailto:foss4g.nor@gmail.com" target="_top">foss4g.nor@gmail.com</a> med 
-          tittel på foredraget/presentasjonen og en beskrivelse/abstract (ca. 300 ord) av tema og problemstilling samt navn og e-postadressen din.</p>
-        </div>
-      </div>
-    </div>
-  </section>
+    </section>
 
   <section id="countdown_section" class="bg-primary">
     <div class="container">
