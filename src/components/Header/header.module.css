@@ -1,0 +1,36 @@
+.headerContainer {
+  background-color: #f05f40;
+  height: 50px;
+  max-width: 960;
+  width: 100%;
+  margin: auto;
+  position: absolute;
+  top: 0;
+}
+
+.headerMaxWidthContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+h2 a {
+  text-decoration: none;
+  color: white;
+}
+
+h2 a:hover {
+  color: #bd93d8;
+}
+
+.headerH1 {
+  margin: 10px;
+}
+
+@media (max-width: 440px) {
+  .footer {
+    font-size: 10px;
+  }
+}

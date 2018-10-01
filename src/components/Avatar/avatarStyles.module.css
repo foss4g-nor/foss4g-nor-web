@@ -1,0 +1,6 @@
+.avatarImg {
+  width: 250px;
+  object-fit: contain;
+  object-position: 0 0;
+  margin-top: 0px;
+}
