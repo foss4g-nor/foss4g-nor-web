@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/foss4g-nor-web",
   siteMetadata: {
     title: "FOSS4GNO",
     description: "En konferanse om open-source programvare i geomatikkbransjen",
