@@ -1,1 +1,0 @@
-[Meninger Fra Seoul](https://norkart.github.io/foss4g-nor-2015-meninger-fra-seoul/)
