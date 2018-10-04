@@ -22,7 +22,7 @@ export default () => (
             Bilde {
               childImageSharp {
                 fixed(width: 75, height: 75) {
-                  ...GatsbyImageSharpFixed
+                  ...GatsbyImageSharpFixed_withWebp_noBase64
                 }
               }
             }

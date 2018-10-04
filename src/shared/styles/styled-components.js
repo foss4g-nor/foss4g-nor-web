@@ -25,19 +25,19 @@ export const LeftSide = styled.div`
   ${media.tablet`
         min-width: 0;
         width: 100%;
-        margin-bottom: -200px;
+        margin-bottom: 0px;
     `} ${mobileHome`
       ${flex.vertical};
       ${flex.centerVertical};
     `};
   ${media.phablet`
-    margin-bottom: -150px;
+    margin-bottom: 0px;
   `};
   ${media.phoneM`
-    margin-bottom: -50px;
+    margin-bottom: 0px;
   `};
   ${media.phone`
-    margin-bottom: -50px;
+    margin-bottom: 0px;
   `};
 `;
 

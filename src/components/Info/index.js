@@ -23,7 +23,7 @@ const Info = () => {
         edges {
           node {
             childImageSharp {
-              fixed(height: 50){
+              fixed(height: 45){
                 ...GatsbyImageSharpFixed
               }
             }
@@ -32,11 +32,11 @@ const Info = () => {
       }
     }  
     `}
-          render={data => {debugger; return(
+          render={data => (
             <div style={{marginTop: 50, display: "flex",  flexDirection: "column", alignItems: "center" }}>
-              {data.allFile.edges.map((edge, i) => <Img key={i} style={{margin: 5, height: 50}}fixed={edge.node.childImageSharp.fixed} />)}
+              {data.allFile.edges.map((edge, i) => <Img key={i} style={{margin: 5, height: 45}}fixed={edge.node.childImageSharp.fixed} />)}
               </div>
-          )}} />
+          )} />
       </div>
     </div>
   );
