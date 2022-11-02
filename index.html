@@ -1,29 +1,50 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="no">
   <head>
-    <meta charset="utf-8">
-    <meta name="description" content="FOSS4G Norge - Free and Open Source Software 4 Geoinformatics i Norge">
-    <meta name="author" content="Geografisk IT - Arild Feragen">
+    <meta charset="utf-8" />
+    <meta
+      name="description"
+      content="FOSS4G Norge - Free and Open Source Software 4 Geoinformatics i Norge"
+    />
+    <meta name="author" content="Geografisk IT - Arild Feragen" />
     <title>FOSS4G Norge</title>
 
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="./css/bootstrap.min.css" media="screen">
+    <link rel="stylesheet" href="./css/bootstrap.min.css" media="screen" />
 
     <style>
-      body {padding-top: 75px; color: #656464}
-      
+      body {
+        padding-top: 75px;
+        color: #656464;
+      }
+
       /* Sidebar */
-      #sidebar {margin-bottom: 50px;}
+      #sidebar {
+        margin-bottom: 50px;
+      }
 
-      #sidebar .btn-primary {background-color: #F16040; border-color: #F16040; color: #fff;}
-      #sidebar .btn-primary:hover {background-color: #F16040; color: #f2c3b6;}
+      #sidebar .btn-primary {
+        background-color: #f16040;
+        border-color: #f16040;
+        color: #fff;
+      }
+      #sidebar .btn-primary:hover {
+        background-color: #f16040;
+        color: #f2c3b6;
+      }
 
-      #sponsor {margin-top: 50px;}
+      #sponsor {
+        margin-top: 50px;
+      }
 
-      #sponsor li {margin-bottom: 10px;}
+      #sponsor li {
+        margin-bottom: 10px;
+      }
 
       /* Content */
-      .content div {margin-bottom: 50px;}
+      .content div {
+        margin-bottom: 50px;
+      }
 
       ul.timeline {
         list-style-type: none;
@@ -31,8 +52,8 @@
       }
 
       ul.timeline:before {
-        content: ' ';
-        background: #B1B0B0;
+        content: " ";
+        background: #b1b0b0;
         display: inline-block;
         position: absolute;
         left: 28px;
@@ -47,7 +68,7 @@
       }
 
       ul.timeline > li h2:before {
-        content: ' ';
+        content: " ";
         background: #fff;
         display: inline-block;
         position: absolute;
@@ -57,197 +78,215 @@
         width: 25px;
         height: 25px;
         z-index: 400;
-        margin-top: 7px; 
+        margin-top: 7px;
       }
 
       /*.byline img {margin-right: 10px;}*/
 
       /* Footer */
       footer {
-        background-color: #f05f40; 
-        margin-top: 20px; 
-        height: 50px; 
-        padding: 10px; 
+        background-color: #f05f40;
+        margin-top: 20px;
+        height: 50px;
+        padding: 10px;
       }
-
     </style>
   </head>
-	
-  <body>
-  <main class="container">
-		<div class="row">
-			<!-- Sidebar -->
-			<aside class="col-sm-3 text-center" id="sidebar">
-				<img src="./img/foss4gNorge22_logo.png" alt="FOSS4G Norge 2022 logo" class="img-fluid">
-				<p class="h5">Open-source programvare i geomatikkbransjen</p>
-				<p>7. desember 2022</p>
-			  <!--<p><a class="btn btn-primary btn-lg" href="https://geoforum.pameldingssystem.no/foss4g-nor-2021">PÅMELDING</a></p>-->
 
-        <!--<ul class="list-inline">
+  <body>
+    <main class="container">
+      <div class="row">
+        <!-- Sidebar -->
+        <aside class="col-sm-3 text-center" id="sidebar">
+          <img
+            src="./img/foss4gNorge22_logo.png"
+            alt="FOSS4G Norge 2022 logo"
+            class="img-fluid"
+          />
+          <p class="h5">Open-source programvare i geomatikkbransjen</p>
+          <p>7. desember 2022</p>
+          <!--<p><a class="btn btn-primary btn-lg" href="https://geoforum.pameldingssystem.no/foss4g-nor-2021">PÅMELDING</a></p>-->
+
+          <!--<ul class="list-inline">
           <li class="list-inline-item"><a href="mailto:foss4gno@gmail.com"><img src="./img/envelope-solid_gray.svg" alt="" width="30px"></a></li>
           <li class="list-inline-item"><a href="https://twitter.com/GeografiskIT"><img src="./img/twitter-brands_gray.svg" alt="" width="30px"></a></li>
         </ul>-->
 
-        <!--<ul class="list-unstyled" id="sponsor">
+          <!--<ul class="list-unstyled" id="sponsor">
           <li><img src="./img/geodata.png" alt="Logo Geodata AS" class="img-fluid"></li>
           <li><img src="./img/avinet.png" alt="Logo Asplan Viak Internet" class="img-fluid"></li>
           <li><img src="./img/norkart.png" alt="Logo Norkart" class="img-fluid"></li>
           <li><img src="./img/kystverket.png" alt="Logo Kystverket" class="img-fluid"></li>
           <li><img src="./img/geoforum.jpg" alt="Logo Geoforum" class="img-fluid"></li>
         </ul>-->
-	</aside>
+        </aside>
 
-	<!-- Content -->
-	<section class="col-sm-9" id="content-container">
-		<div>
+        <!-- Content -->
+        <section class="col-sm-9" id="content-container">
+          <!--<div>
 		<h2>Velkommen til FOSS4G Norge 2022</h2></br>
 		<p>Årets konferanse vil bli avholdt 7. des. på Felix konferansesenter på Aker brygge.</p>
 		<p>Program er ikke helt ferdig enda, så hvis du ønsker å delta som foredragsholder kan du lese vårt <a href="./CfA_FOSS4G-NOR_2022.pdf">Call for Abstracts her</a>.</p>
-		</div>
-        <!--<ul class="timeline">
-          <li>
-            <p class="time h5">Kl. 09.00</p>
-            <h2>Velkommen v/ komiteen</h2>
-          </li>
+		</div>-->
+          <ul class="timeline">
+            <li>
+              <p class="time h5">Kl. 09.00</p>
+              <h2>Velkommen v/ komiteen</h2>
+            </li>
 
-          <li>
-            <p class="time h5">Kl. 09.10</p>
-	    <h2>QGIS Norge</h2>
-            <p class="byline font-italic">James Stott, Statsforvalteren i Rogaland</p>
-            <p class="description">En kort presentasjon av QGIS Norge og nettverkets aktiviteter.</p>  
-          </li>
+            <li>
+              <p class="time h5">Kl. 09:30</p>
+              <h2>Navn på foredrag kommer</h2>
+              <p class="byline font-italic">
+                Mona Strøm Arnøy, Markedsdirektør Kartverket
+              </p>
+              <p class="description"></p>
+            </li>
 
-          <li>
-            <p class="time h5">Kl. 09.20</p>
-            <h2>Data fra NVDB inn i QGIS</h2>
-            <p class="byline font-italic">Jan Kristian Jensen, Statens vegvesen</p>
-            <p class="description">Med python-konsollet i QGIS har jeg laget enkle og kraftfulle spørringer som henter data fra NVDB og legger det til QGIS-prosjektet ditt.</p>
-          </li>
-	
-	  <li>
-            <p class="time h5">Kl. 09.50</p>
-            <h2>Felles forvaltningsopplegg for standardiserte havnedata gjennom QGIS-plugin</h2>
-            <p class="byline font-italic">Maléne Peterson, Norkart og Lars Eggan, Norconsult Informasjonssystemer</p>
-            <p class="description">Målet med Kartverket sitt havnedataprosjekt er å gjøre det enkelt å dele og oppdatere havnedata gjennom felles nasjonal infrastruktur for stedfestet informasjon. Man skal utvikle og teste felles forvaltningsopplegg for havnedata basert på SFKB og NGIS Open API.</p>
-          </li>
+            <li>
+              <p class="time h5">Kl. 10:00</p>
+              <h2>OGC APIer</h2>
+              <p class="byline font-italic">
+                Lars-Inge Arnevik, Kartverket
+              </p>
+              <p class="description"></p>
+            </li>
 
-          <li>
-            <p class="time h5">Kl. 10.20</p>
-            <h2>Pause</h2>
-          </li>
+            <li>
+                <p class="time h5">Kl. 10.20</p>
+                <h2>Pause</h2>
+              </li>
 
-          <li>
-            <p class="time h5">Kl. 10.40</p>
-            <h2>PostGIS</h2>
-            <p class="byline font-italic">Runar Bergheim, Asplan Viak</p>
-            <p class="description">Beskrivelse kommer.</p>
-          </li>
+            <li>
+              <p class="time h5">Kl. 10:40</p>
+              <h2>
+                Navn på foredrag kommer
+              </h2>
+              <p class="byline font-italic">
+                Lars Aksel Opdahl, NIBIO
+              </p>
+              <p class="description"></p>
+            </li>
 
-          <li>
-            <p class="time h5">Kl. 11.05</p>
-            <h2>Datastyrt og kodefritt OpenAPI med PostGIS, PostgREST og OGR_FDW</h2>
-            <p class="byline font-italic">Odin Altin, Norconsult Informasjonssystemer</p>
-            <p class="description">Vi utforsker hvordan man kan bruke PostGIS med venner for å produsere OpenAPI på 1-2-3.</p>
-          </li>
+            <li>
+              <p class="time h5">Kl. 11.00</p>
+              <h2>Python geopandas - GIS pluss tabulære data er sant!</h2>
+              <p class="byline font-italic">Jan Kristian Jensen, Statens Vegvesen</p>
+              <p class="description"></p>
+            </li>
 
-          <li>
-            <p class="time h5">Kl. 11.30</p>
-            <h2>Lunsj</h2>
-          </li>
+            <li>
+                <p class="time h5">Kl. 10.20</p>
+                <h2>Pause</h2>
+              </li>
 
-          <li>
-            <p class="time h5">Kl. 12.30</p>
-            <h2>Nasjonal tilgang til Copernicus Sentinel data</h2>
-            <p class="byline font-italic">Trygve Halsne, Meteorologisk institutt</p>
-            <p class="description">En introduksjon til hvordan enkelt få tilgang til Copernicus Sentinel data med brukseksempler i QGIS og Python. I tillegg vil vi presentere ulike APIer og beskrive den bakenforliggende datahåndteringen for <a href="https://www.satellittdata.no/nb">satellittdata.no</a>.</p>
-          </li>
+            <li>
+              <p class="time h5">Kl. 12.00</p>
+              <h2>
+                Markfuktighetskart fra NHM1
+              </h2>
+              <p class="byline font-italic">
+                Nils Egil Søvde, NIBIO
+              </p>
+              <p class="description"></p>
+            </li>
 
-          <li>
-            <p class="time h5">Kl. 13.00</p>
-            <h2>Skyfri Sentinel-2 mosaikk</h2>
-            <p class="byline font-italic">Torgeir Ferdinand Klingenberg, Kartverket</p>
-            <p class="description">Vi ser hvordan Kartverket gikk fra en manuell produksjon av skyfri mosaikk, til å bruke open source kode for å automatisere store deler av produksjonen av skyfri Sentinel-2 mosaikk. Vi går nærmere inn på open source modulene MAJA og WASP og viser til noen eksempler på bruk og nytte av de ferdigproduserte mosaikkene.</p>
-          </li>
+            <li>
+              <p class="time h5">Kl. 12.20</p>
+              <h2>FOSS4G4 airborne</h2>
+              <p class="byline font-italic">
+                Adam Steer, Norsk Polarinstitutt og OSGeo
+              </p>
+              <p class="description"></p>
+            </li>
 
-          <li>
-            <p class="time h5">Kl. 13.30</p>
-            <h2>Pause</h2>
-          </li>
+            <li>
+              <p class="time h5">Kl. 12.40</p>
+              <h2>Navn på foredrag kommer</h2>
+              <p class="byline font-italic"></p>
+              <p class="description"></p>
+            </li>
 
-          <li>
-            <p class="time h5">Kl. 13.50</p>
-            <h2>KartAI</h2>
-            <p class="byline font-italic">Ivar Oveland , Kartverket</p>
-            <p class="description">KartAI er et forskningsprosjekt for kvalitetshevning av eiendomsregisteret og Sentral felles kartdatabase ved hjelp av kunstig intelligens. Prosjektet sammenfatter flere ulike datakilder og vil inkludere innbyggerne for å styrke datademokratiet. Multiple datakilder brukes for å finne ut om en bygging er uforandret, bygd på, helt nytt, eller revet?</p>
-          </li>
+            <li>
+                <p class="time h5">Kl. 13:00</p>
+                <h2>Lunsj</h2>
+              </li>
 
-          <li>
-            <p class="time h5">Kl. 14.20</p>
-            <h2>Artsorakel - open source og open data</h2>
-            <p class="byline font-italic">Wouter Koch, Artsdatabanken</p>
-            <p class="description">De mange fordelene, og noen utfordringer, ved åpne data og kode under utvikling av Artsorakelet - appen som kjenner igjen bilder av planter og dyr.</p>
-          </li>
-		
-          <li>
-            <p class="time h5">Kl. 14.50</p>
-            <h2>Pause</h2>
-          </li>
+            <li>
+              <p class="time h5">Kl. 14.00</p>
+              <h2>Open Source og sikkerhet</h2>
+              <p class="byline font-italic">Henrik Lund Pedersen, Kartverket</p>
+              <p class="description"></p>
+            </li>
 
-          <li>
-            <p class="time h5">Kl. 15.00</p>
-            <h2>På jakt etter gjemte kulturminner i Finland</h2>
-	    <p class="byline font-italic">Stian Rostad, Blom</p>
-	    <p class="description">Hvordan bruker vi Python for å kartlegge kulturminner i uendelige finske skoger? Rester av gamle tjæremiler og fangstgroper har satt spor i terrenget, men er vanskelige å oppdage i felt. Med smart manipulering av laserdata og med deep learning klarer vi å detektere disse på en effektiv måte.</p>
-          </li>
+            <li>
+              <p class="time h5">Kl. 14.20</p>
+              <h2>Biologisk mangfold og åpen programvare - store systemer og store data</h2>
+              <p class="byline font-italic">Dag Endresen, Naturhistorisk museum</p>
+              <p class="description"></p>
+            </li>
 
-          <li>
-            <p class="time h5">Kl. 15.20</p>
-            <h2>Automatic classification of drone images using Open Source tools</h2>
-	    <p class="byline font-italic">James Sample, NIVA</p>
-            <p class="description">The SeaBee project is developing a national infrastructure for done-based data collection and analysis. We are using a range of Open Source tools to automatically classify drone images – for example to produce habitat maps or ecological survey data (bird counts etc.). I will present an overview of our current workflow, beginning with initial data processing on a JupyterHub, followed by training and evaluation of Convolutional Neural Networks (CNNs) using PyTorch. Options for further development and the increasing role for Open Source software will be discussed.</p>
-          </li>
+            <li>
+              <p class="time h5">Kl. 14.40</p>
+              <h2>Pause</h2>
+            </li>
 
-          <li>
-            <p class="time h5">Kl. 15.40</p>
-            <h2>Pause</h2>
-          </li>
+            <li>
+              <p class="time h5">Kl. 15.00</p>
+              <h2>AI utvikler</h2>
+              <p class="byline font-italic">Mathilde Ørstavik, Norkart</p>
+              <p class="description"></p>
+            </li>
 
-          <li>
-            <p class="time h5">Kl. 15.50</p>
-            <h2>Prosessering av geodata ved bruk av python</h2>
-	    <p class="byline font-italic">Tord Sørensen, Science & Technology</p>
-            <p class="description">I dette foredraget ønsker vi å introdusere åpne python verktøy for å behandle GIS data. Dette inkluderer blant annet verktøy som gdal, rasterio, shapely og geopandas. I tillegg ønsker vi å vise hvordan man kan ta steget fra python scripting til en mer robust løsning som kan deles med andre.</p>
-          </li>
+            <li>
+              <p class="time h5">Kl. 15.20</p>
+              <h2>
+                Navn på foredrag kommer
+              </h2>
+              <p class="byline font-italic">Stian Rostad, Field Group</p>
+              <p class="description"></p>
+            </li>
 
-          <li>
-            <p class="time h5">Kl. 16.10</p>
-            <h2>OS i internasjonale prosjekter</h2>
-	    <p class="byline font-italic">Ragnvald Larsen, Miljødirektoratet</p>
-            <p class="description">En gjennomgang av Miljødirektoratets erfaringer med å introdusere open source til internajsonale samarbeidspartnere.</p>
-          </li>
-		
-	  <li>
-            <p class="time h5">Kl. 16.30</p>
-            <h2>Oppsummering og takk for i dag!</h2>
-          </li>
+            <li>
+              <p class="time h5">Kl. 15.40</p>
+              <h2>Navn på foredrag kommer</h2>
+              <p class="byline font-italic"></p>
+              <p class="description"></p>
+            </li>
 
-          <li>
-            <p class="time h5">Kl. xx.xx</p>
-            <h2>Overskrift</h2>
-            <p class="byline font-italic"><img src="https://via.placeholder.com/75" alt="" class="rounded-circle" width="75px" height="75px">Navn, Firma</p>
-            <p class="description">Beskrivelse</p>
-          </li>
-        </ul>
-			</section>-->
-		</div>
-  </main>
-  <!-- /.container -->
+            <li>
+              <p class="time h5">Kl. 16.00</p>
+              <h2>Oppsummering og takk for i dag!</h2>
+              <p class="description"></p>Mingling på Aker brygge etterpå, for de som ønsker det.</p>
+            </li>
 
-  <footer>
-    <div class="container">
-      <p class="text-light">FOSS4G Norge 2022 - Free and Open Source Software 4 Geoinformatics i Norge</p>
-    </div>
-  </footer>
+            <!--<li>
+              <p class="time h5">Kl. xx.xx</p>
+              <h2>Overskrift</h2>
+              <p class="byline font-italic">
+                <img
+                  src="https://via.placeholder.com/75"
+                  alt=""
+                  class="rounded-circle"
+                  width="75px"
+                  height="75px"
+                />Navn, Firma
+              </p>
+              <p class="description">Beskrivelse</p>
+            </li>-->
+          </ul>
+        </section>
+      </div>
+    </main>
+    <!-- /.container -->
 
+    <footer>
+      <div class="container">
+        <p class="text-light">
+          FOSS4G Norge 2022 - Free and Open Source Software 4 Geoinformatics i
+          Norge
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
